@@ -694,7 +694,7 @@ class SelectionWidgetState<T> extends State<SelectionWidget<T>> {
           Text(
             _selectedItemAsString(item),
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.subtitle1,
+            style: Theme.of(context).textTheme.titleLarge,
           ),
           Padding(padding: EdgeInsets.only(left: 8)),
           Visibility(
